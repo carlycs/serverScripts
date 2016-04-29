@@ -1,0 +1,39 @@
+#intalling header files for python
+sudo apt-get install python-dev
+
+#Intalling header files for python3
+sudo apt-get install python3-dev
+
+
+#Checking for any dependencies
+sudo apt-get -f install 
+
+wget https://bootstrap.pypa.io/get-pip.py
+
+
+python3 get-pip.py
+pip install -U pip
+
+ls pip*
+#default pip installs for python3 /usr/local/lib
+sudo sudo pip3 install numpy
+ 
+
+sudo pip3 install scipy
+sudo pip3 install pandas
+sudo pip3 install matplotlib
+sudo pip3 install math
+
+import numpy
+import matplotlib.pyplot as plt
+import math
+import scipy.linalg
+import pandas as pd
+
+#The following required packages can not be built:
+                         #   * freetype, png
+
+
+#==================================
+#======INSTALLING FOR PYTHON2======
+#==================================
